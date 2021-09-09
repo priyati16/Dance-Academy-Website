@@ -1,0 +1,20 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Priya's Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+       ul
+           div#logo
+              img(src="/static/logo.jpg")
+              | PDA
+           li #[a(href="/") Home]
+           li #[a(href="/about" ) About]
+           li #[a(href="/services") Services]
+           li #[a(href="/contact") Contact Us]
+    block content
+    footer#footersection
+                    |Copyright Priya's Dance Academy 2021 |All rights are reserved.      

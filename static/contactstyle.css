@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    margin: 14px;
+    font-family: 'Langar', cursive;
+}
+.myform{
+    height: 387px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    border-radius: 10px;
+    border: solid grey 2px;
+    padding: 12px;
+    margin: 8px;
+    width: 972px;
+    font-size: 17px;
+    outline: none;
+
+}
+.btn{
+    font-family: 'Langar', cursive;
+    border: solid black;
+    padding: 4px;
+    font-size: 19px;
+    font-family: 'Langar', cursive;
+    margin: 10px;
+    width: 97px;
+    background: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 11px; 
+    outline: none; 
+}
+.container{
+    min-height: 78vh;
+    margin: 22px 0px;
+}

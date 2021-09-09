@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+      include ../static/style.css
+
+block content
+
+
+   section#introsection
+        div Welcome To Priya's Dance Academy
+        div.small live your passion
+
+   section#missionsection
+        h2 Our mission 
+        div.card
+          h3 Perfection In Dance 
+          div.card-box
+             div.card-img
+                img(src="/static/1.png")
+             div.card-content 
+                 p This is the best dance academy in your city,we work on perfection minutely. 
+
+        div.card
+          h3 Expert Teaching
+          div.card-box
+             div.card-img
+                img(src="/static/2.png")
+             div.card-content 
+                 p We provide you the best faculty of india.They are self big names of Bollywood.
+
+        div.card
+          h3 Self Choice For Types In Dance
+          div.card-box
+             div.card-img
+                img(src="/static/3.png")
+             div.card-content 
+                 p We dont force our choice on client,you are free to choose your favourite dance type.  
+
+
+   section#sponsorsection
+        h2 Our Sponsers
+        div#sponsers
+            img(src="/static/logo1.png", Class="spimage")
+            img(src="/static/logo2.png" ,Class="spimage")
+            img(src="/static/logo3.png" ,Class="spimage")
+            img(src="/static/logo4.png" ,Class="spimage")
